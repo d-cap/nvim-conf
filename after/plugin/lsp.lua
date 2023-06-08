@@ -64,4 +64,6 @@ local opts = {
   },
 }
 
+lsp.skip_server_setup({'jdtls'})
+
 require("rust-tools").setup(opts)
