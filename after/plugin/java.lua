@@ -115,15 +115,15 @@ local config = {
         runtimes = {
           {
             name = "JavaSE-17",
-            path = home .. "/usr/lib/jvm/java-17-openjdk",
+            path = "/usr/lib/jvm/java-17-openjdk",
           },
           {
             name = "JavaSE-11",
-            path = home .. "/usr/lib/jvm/java-11-openjdk",
+            path = "/usr/lib/jvm/java-11-openjdk",
           },
           {
             name = "JavaSE-1.8",
-            path = home .. "/usr/lib/jvm/java-8-openjdk"
+            path = "/usr/lib/jvm/java-8-openjdk"
           },
         }
       }
