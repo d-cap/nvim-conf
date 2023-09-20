@@ -47,6 +47,7 @@ return require('packer').startup(function(use)
     use('simrat39/rust-tools.nvim')
     use("folke/zen-mode.nvim")
     use('mfussenegger/nvim-jdtls')
-    use 'mfussenegger/nvimwall-symmetric-dap'
+    use('mfussenegger/nvimwall-symmetric-dap')
     use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
+    use('weihanglo/polar.vim')
 end)
