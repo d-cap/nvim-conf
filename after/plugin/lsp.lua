@@ -42,6 +42,7 @@ lsp.format_on_save({
     servers = {
         ['tsserver'] = { 'javascript', 'typescript' },
         ['rust_analyzer'] = { 'rust' },
+        ['clangd'] = { 'c' },
     }
 })
 
